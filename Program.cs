@@ -1,6 +1,3 @@
-﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("Hello, World!");
-string name = "Кирилл";
-int age = 18;
-Console.WriteLine("Привет! Меня зовут " + name + " мне " + age + " лет");
+﻿using Tyuiu.IvantsovKA.Sprint0.Task3.V0.Lib;
+Console.WriteLine(DataService.Sum(7, 7));
 Console.ReadKey();
