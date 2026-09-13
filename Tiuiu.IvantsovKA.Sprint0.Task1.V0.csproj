@@ -1,10 +1,5 @@
-﻿<Project Sdk="Microsoft.NET.Sdk">
-
-  <PropertyGroup>
-    <OutputType>Exe</OutputType>
-    <TargetFramework>net8.0</TargetFramework>
-    <ImplicitUsings>enable</ImplicitUsings>
-    <Nullable>enable</Nullable>
-  </PropertyGroup>
-
-</Project>
+﻿Console.WriteLine("Hello, World!");
+string name = "Кирилл";
+int age = 18;
+Console.WriteLine("Привет! Меня зовут " + name + " мне " + age + " лет");
+Console.ReadKey();
